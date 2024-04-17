@@ -606,6 +606,7 @@ a {
 .footer .social {
     display: flex;
     margin-top: 40px;
+    gap: 16px;
 }
 
 .footer .social-link {
@@ -615,6 +616,7 @@ a {
     width: 28px;
     height: 28px;
     border-radius: 3px;
+    background-color: #f9f9f9;
 }
 
 .footer .social-link:hover {
