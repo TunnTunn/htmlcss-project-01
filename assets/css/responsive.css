@@ -171,4 +171,87 @@
     .navbar .action {
         display: none;
     }
+
+    .hero-wrap {
+        height: calc(100vh - 80px);
+    }
+
+    .hero-wrap .title {
+        margin-top: 20px;
+        font-size: 4.8rem;
+    }
+
+    .hero-wrap .desc {
+        width: 100%;
+    }
+
+    .clients .desc:last-child {
+        text-align: end;
+    }
+
+    .clients .images {
+        row-gap: 20px;
+    }
+
+    .list-guides {
+        flex-direction: column;
+        row-gap: 60px;
+    }
+
+    .guides {
+        padding: 0 0 80px;
+    }
+
+    .feature .link {
+        display: none;
+    }
+
+    .feature .list {
+        grid-template-columns: 1fr;
+    }
+
+    .feature .view-all {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    .stats .sub-title {
+        width: 100%;
+    }
+
+    .stats .img-block .image {
+        width: 100%;
+    }
+
+    .stats-trend {
+        top: 20px;
+        left: 20px;
+        border-radius: 12px;
+    }
+
+    .stats .row-qty {
+        margin-top: 80px;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 60px;
+    }
+
+    .subscription .info {
+        padding: 32px;
+    }
+
+    .subscription .body {
+        height: auto;
+    }
+
+    .footer .row-top {
+        column-gap: normal;
+    }
+
+    .footer .row-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 24px;
+    }
 }
